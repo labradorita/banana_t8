@@ -1,7 +1,7 @@
 'use strict';
 const smile = document.querySelector('.face');
 
-function changeSmile(){
+function changeSmile(ev){
     smile.innerHTML = ';)';
 }
 function changeSmile2(){
