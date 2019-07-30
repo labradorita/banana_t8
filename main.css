@@ -1,4 +1,9 @@
-"use strict";
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .head {
     background: #fc0;
     height: 100px;
@@ -12,6 +17,5 @@
     left: 50%;
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -60%);
-    rotate(90deg);
+    transform: translate(-50%, -60%) rotate(90deg);
   }
